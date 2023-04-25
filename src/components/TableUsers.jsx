@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 export default function TableUsers() {
 
   return (
-    <div className="table-users">
+    <div>
       <div>
         <h2>Users Contact</h2>
-        <table>
+        <table className="table-users">
           <tr>
             <th>Name</th>
             <th>Address</th>
-            <th>{'\u00A0'}</th>
+            <th colSpan={2}>{'\u00A0'}</th>
           </tr>
 
           {data.map((item, index) => {
@@ -21,7 +21,8 @@ export default function TableUsers() {
               <tr key={index}>
                 <td>{item.name}</td>
                 <td>{item.address}</td>
-                <td><Link className="link" to={`/User/${item.key}`}> Print </Link></td>
+                <td><Link className="link" to={`/user/${item.key}`} target="_blank"> View </Link></td>
+                <td><Link className="link" to={`/user/${item.key}/pdf`} target="_blank"> Print </Link></td>
               </tr>
             );
           })}
