@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 24px;
 }
 
 code {
@@ -60,49 +61,52 @@ h3 {
   text-decoration: underline #D2C7FF;
 }
 
-/* Table style */
+/* .table-users style */
 
-table {
+.table-users {
   border-collapse: collapse;
   text-align: center;
   margin-bottom: 20px;
 }
 
-table tr {
+.table-users tr {
   border: solid;
   border-width: 1px 0;
   border-style: dotted;
-  border-color: #7bc043;
+  border-color: #D2C7FF;
 }
 
-table tr:first-child {
+.table-users tr:first-child {
   border-top: none;
 }
 
-table tr:last-child {
+.table-users tr:last-child {
   border-bottom: none;
 }
 
-table th,
-table td {
+.table-users td{
+  border-radius: 16px;
   padding: 8px;
-  cursor: pointer;
 }
 
-table td:hover {
-  background-color: rgba(123, 192, 67, 0.2);
+
+.table-users td:hover {
+  background-color: rgba(210, 199, 255, 0.2);
   border-radius: 8px;
 }
 
-table thead {
+.table-users thead {
   border-bottom: dashed #7bc043;
 }
 
 /* CSS links styles */
 .link{
   text-decoration: none;
-  padding: 10px;
+  background-color: #D2C7FF;
+  border-radius: 12px;
+  padding: 4px;
 }
+
 
 .link:link,
 .link:visited {
