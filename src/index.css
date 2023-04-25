@@ -89,7 +89,6 @@ h3 {
   padding: 8px;
 }
 
-
 .table-users td:hover {
   background-color: rgba(210, 199, 255, 0.2);
   border-radius: 8px;
@@ -118,3 +117,14 @@ h3 {
   color: #ffff;
 }
 
+/* .table-user-view style */
+
+.table-user-view {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.table-user-view th, td {
+  border: 1px solid #D2C7FF;
+  padding: 8px;
+}
