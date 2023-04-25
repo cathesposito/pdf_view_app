@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Header style */
+header {
+  background-color: #aa55ff;
+  padding: 5px 50px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  height: 60px;
+}
+
+/* Main style */
+main {
+  padding: 12px 24px;
+  margin-bottom: 80px
+}
+
+/* Footer style */
+footer {
+  background-color: #D2C7FF;
+  padding: 0 50px;
+  border-radius: 5px 5px 0 0;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 100px 100px 100px 100px rgba(0, 0, 0, 0.06);
+}
+
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+
+/* Headings styles */
+h1,
+h2,
+h3 {
+  text-decoration: underline #D2C7FF;
+}
+
+/* Table style */
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table tr {
+  border: solid;
+  border-width: 1px 0;
+  border-style: dotted;
+  border-color: #7bc043;
+}
+
+table tr:first-child {
+  border-top: none;
+}
+
+table tr:last-child {
+  border-bottom: none;
+}
+
+table th,
+table td {
+  padding: 8px;
+  cursor: pointer;
+}
+
+table td:hover {
+  background-color: rgba(123, 192, 67, 0.2);
+  border-radius: 8px;
+}
+
+table thead {
+  border-bottom: dashed #7bc043;
+}
+
+/* CSS links styles */
+.link{
+  text-decoration: none;
+  padding: 10px;
+}
+
+.link:link,
+.link:visited {
+  color: #000;
+}
+
+.link:hover,
+.link:active {
+  color: #ffff;
+}
+
