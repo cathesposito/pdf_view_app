@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pdf_view_app/static/css/main.69a42d3a.css",
+    "main.js": "/pdf_view_app/static/js/main.19b428d6.js",
+    "static/js/787.8bac2109.chunk.js": "/pdf_view_app/static/js/787.8bac2109.chunk.js",
+    "index.html": "/pdf_view_app/index.html",
+    "main.69a42d3a.css.map": "/pdf_view_app/static/css/main.69a42d3a.css.map",
+    "main.19b428d6.js.map": "/pdf_view_app/static/js/main.19b428d6.js.map",
+    "787.8bac2109.chunk.js.map": "/pdf_view_app/static/js/787.8bac2109.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69a42d3a.css",
+    "static/js/main.19b428d6.js"
+  ]
+}
