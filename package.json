@@ -14,7 +14,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://cathesposito.github.io/pdf_view_app",
+  "homepage": "https://cathesposito.github.io/pdf_view_app",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
