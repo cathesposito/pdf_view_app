@@ -23,14 +23,18 @@ const UserView = () => {
 
             {found && (
                 <table className="table-user-view">
-                    <tr>
-                        <th>Name</th>
-                        <th>Address</th>
-                    </tr>
-                    <tr>
-                        <td>{found.name}</td>
-                        <td>{found.address}</td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Address</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{found.name}</td>
+                            <td>{found.address}</td>
+                        </tr>
+                    </tbody>
                 </table>
             )}
 
