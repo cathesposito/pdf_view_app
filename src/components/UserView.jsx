@@ -2,7 +2,8 @@ import React from "react";
 import { useParams } from 'react-router-dom';
 import data from "../users"
 
-
+import Header from './Header';
+import Footer from './Footer';
 
 const UserView = () => {
     const { key } = useParams();
@@ -14,9 +15,10 @@ const UserView = () => {
     });
 
     return (
-
         <div>
-            <h2>User {found.name}</h2>
+            <Header />
+            <main>
+                <h2>User {found.name}</h2>
             <p>Address {found.address}</p>
 
             <hr />
@@ -37,7 +39,8 @@ const UserView = () => {
                     </tbody>
                 </table>
             )}
-
+            </main>
+            <Footer />
         </div>
     );
 
