@@ -1,10 +1,18 @@
 import React from "react";
 
+import Header from './Header';
+import Footer from './Footer';
 import TableUsers from "./TableUsers";
 
 const Home = () => {
     return (
-        <TableUsers />
+        <div>
+            <Header />
+            <main>
+                <TableUsers />
+            </main>
+            <Footer />
+        </div>
     );
 };
 
