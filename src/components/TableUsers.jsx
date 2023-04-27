@@ -22,7 +22,7 @@ export default function TableUsers() {
                 <td>{item.name}</td>
                 <td>{item.address}</td>
                 <td><Link className="link" to={`/user/${item.key}`} target="_blank"> View </Link></td>
-                <td><Link className="link" to={`/user/${item.key}/pdf`} target="_blank"> Print </Link></td>
+                <td><Link className="link" to={`/user/pdf/${item.key}`} target="_blank"> Print </Link></td>
               </tr>
             );
           })}
