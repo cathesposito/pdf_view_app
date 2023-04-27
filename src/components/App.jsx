@@ -7,29 +7,24 @@ import {
 } from "react-router-dom";
 
 import Home from './Home';
-import Header from './Header';
-import Footer from './Footer';
 import UserView from "./UserView";
 import UserPDFView from "./UserPDFView";
 
 export default function App() {
   return (
     <div>
-      <Header />
       <Router>
-        <main>
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/about" element={<About />} />
-            <Route exact path="/user/:key" element={<UserView />} />
-            <Route exact path="/user/:key/pdf" element={<UserPDFView />} />
-          </Routes>
-        </main>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/user/:key" element={<UserView />} />
+        <Route exact path="/user/pdf/:key" element={<UserPDFView />} />
+        </Routes>
       </Router>
-      <Footer />
     </div>
   );
 }
+
 
 
 
