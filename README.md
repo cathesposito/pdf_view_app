@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To access: https://cathesposito.github.io/pdf_view_app/
 
-The idea was to create Users table from .js file that can be later changed by json file or any database. The table has two column that direct for a html view "View" button and a pdf view "Print". Each user will have their own pages.
+The idea was to create Users table from .js file that can be later changed to json file or any database. The table has two column that send the user to a html view button "View" and a pdf view using button "Print". Each user will have their own pages.
 
 <img width="403" alt="Screenshot 2023-04-28 at 11 02 10 AM" src="https://user-images.githubusercontent.com/73259833/235183754-241124a0-892d-4697-8e14-38e4469436f2.png">
 
