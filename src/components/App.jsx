@@ -1,7 +1,7 @@
 import React from "react";
 
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -13,14 +13,14 @@ import UserPDFView from "./UserPDFView";
 export default function App() {
   return (
     <div>
-      <Router>
+      <HashRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/user/:key" element={<UserView />} />
         <Route exact path="/user/pdf/:key" element={<UserPDFView />} />
         </Routes>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
