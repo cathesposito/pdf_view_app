@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <img
-        src="/PDF.png"
+        src="./PDF.png"
         alt="logo"
       />
     </header>
